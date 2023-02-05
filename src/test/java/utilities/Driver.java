@@ -38,10 +38,11 @@ public class Driver {
 
                     break;
                 default:
-                    WebDriverManager.chromedriver().setup();
-                    driver = new ChromeDriver();
                     ChromeOptions opt = new ChromeOptions();
                     opt.addArguments("headless", "no-sandbox");
+                    WebDriverManager.chromedriver().setup();
+                    driver = new ChromeDriver();
+
 
 
             }
