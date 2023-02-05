@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="28.015">
-    <testcase classname="US1001 Kullanici Amazon Sayfasinda Arama Yapar" name="TC01 kullanici amazonda nutella aratir" time="10.892">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="28.828">
+    <testcase classname="US1001 Kullanici Amazon Sayfasinda Arama Yapar" name="TC01 kullanici amazonda nutella aratir" time="11.431">
         <system-out>
             <![CDATA[Given kullanici amazon anasayfasinda........................................passed
 Then kullanici Nutella icin arama yapar.....................................passed
@@ -9,7 +9,7 @@ And sayfayi kapatir.........................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1001 Kullanici Amazon Sayfasinda Arama Yapar" name="TC02 kullanici amazonda Java aratir" time="8.715">
+    <testcase classname="US1001 Kullanici Amazon Sayfasinda Arama Yapar" name="TC02 kullanici amazonda Java aratir" time="8.772">
         <system-out>
             <![CDATA[Given kullanici amazon anasayfasinda........................................passed
 Then kullanici Java icin arama yapar........................................passed
@@ -18,7 +18,7 @@ And sayfayi kapatir.........................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1001 Kullanici Amazon Sayfasinda Arama Yapar" name="TC03 kullanici iphone aratir" time="8.223">
+    <testcase classname="US1001 Kullanici Amazon Sayfasinda Arama Yapar" name="TC03 kullanici iphone aratir" time="8.436">
         <system-out>
             <![CDATA[When kullanici amazon anasayfasinda.........................................passed
 And kullanici iphone icin arama yapar.......................................passed
