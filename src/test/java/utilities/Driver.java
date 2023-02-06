@@ -35,15 +35,10 @@ public class Driver {
                 case "headless-chrome":
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver(new ChromeOptions().setHeadless(true));
-
                     break;
                 default:
-                    ChromeOptions opt = new ChromeOptions();
-                    opt.addArguments("headless", "no-sandbox");
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
-
-
 
             }
 
